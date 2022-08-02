@@ -2,6 +2,8 @@ connection: "otovo_aws_redshift"
 
 label: "Content Validator MRE"
 
+include: "/content_validator_mre.dashboard"
+
 view: example {
 
   derived_table: {
