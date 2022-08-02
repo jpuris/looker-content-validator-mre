@@ -3,11 +3,15 @@
 
 ## The Bug
 
-Looker's  Content Validtor does detect or replace fields in Custom field button style "Filter", all three custom field types are affected.
+Looker's  Content Validtor does detect or replace fields in following objects
 
-- Custom Measure
-- Custom Dimension
-- Table Calculation
+- Custom Measure > Filter
+- Custom Measure > Custom filter
+- Custom Dimension > Expression
+- Table Calculation > Expression
+- Custom Dimension > Bin
+- Custom Dimension > Group
+- Custom Dimension > Source field
 
 _**Looker version at the time of reproduction on Aug 2nd, 2022: 22.12.38**_
 
